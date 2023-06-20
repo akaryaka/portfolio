@@ -129,7 +129,7 @@ a{
   color: #F8D568;
 }
 
-.github-link{
+.link{
   text-decoration: underline;
 }
 
@@ -213,4 +213,10 @@ a{
   border: transparent;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: 700;
+}
+/**/
+
+
+.telegram-icon{
+  color: #a5c3ec;
 }

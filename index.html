@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Резюме</title>
+  <script src="https://kit.fontawesome.com/5dc8856e2f.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
-  
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
 </head>
@@ -16,28 +16,55 @@
   <div class="wrapper block_light">
     <aside class="aside">
       <div class="photo-wrapper">
-        <img src="https://images.unsplash.com/photo-1566275529824-cca6d008f3da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGhvdG98ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="Место для аватара" class="photo">
+        <img class="photo" src="images/photo-1.jpg" alt="photo">
       </div>
       <header class="aside__header block">
-        <section class="contact">
+        <section class="contact ">
           <h2 class="title-2">Контакты</h2>
           <ul class="list">
             <li class="list__item">
-              <a class="text" target="_blank" href="https://t.me/andrew_karyaka">telegram</a>
+              <a class="list__item__link text" target="_blank" href="https://t.me/andrew_karyaka">
+                <span>
+                  <i class="fa-brands fa-telegram telegram-icon"></i>
+                </span>
+                <em>telegram</em>
+              </a>
             </li>
             <li class="list__item">
-              <a class="text" target="_blank" href="https://github.com/Canoua">github</a>
+              <a class="list__item__link text" target="_blank" href="https://github.com/Canoua">
+                <span>
+                  <i class="fa-brands fa-github github-icon"></i>
+                </span>
+                <em>github</em>
+              </a>
             </li>
             <li class="list__item">
-              <a class="text" target="_blank" href="#">kwork</a>
+              <a class="list__item__link text" target="_blank" href="tel:+79994702494">
+                <span>
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+                <em>89994702494</em>
+              </a>
             </li>
           </ul>
         </section>
         <section class="education">
           <h2 class="title-2">Образование</h2>
-          <ul class="list text">
-            <li class="list__item">ОмГПУ(2015-2020), Математика и информатика</li>
-            <li class="list__item">beonmax</li>
+          <ul class="list">
+            <li class="list__item text">
+              <p>
+                <strong>Годы обучения:</strong>
+                <span>2015-2020</span>
+              </p>
+              <p>
+                <strong>Университет:</strong>
+                <span>ОмГПУ</span>
+              </p>
+              <p>
+                <strong>Профиль:</strong>
+                <span>Педагогическое образование(с двумя профилями подготовки - математика и информатика)</span>
+              </p>
+            </li>
           </ul>
         </section>
       </header>
@@ -63,27 +90,36 @@
       <header class="content__header">
         <h1 class="title">
           <span class="yellow-text">Андрей</span>
-          <span class="title__surname text">Каряка</span> 
+          <span class="title__surname text" >Каряка</span> 
         </h1>
         <h2 class="subtitle text">web-разработчик</h2>
       </header>
       <div class="content__block block">
         <div class="content__block__item content__profile">
-          <h2 class="title-2">Профиль</h2>
+          <h2 class="title-2">Обо мне</h2>
           <div class="content__text text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maiores laborum sit numquam quae, voluptates dolore libero in veritatis distinctio.
+            <p>Мне очень интересно все, что связано с гаджетами: компьютеры, смартфоны, новые технологии.</p>
+            <p>Впервые заинтересовался web-разработкой в 2020 году, после просмотра одного вдохновляющего:) ролика про Кремниевую долину.</p>
+            <p>Но более осознанно начал заниматься web-разработкой с января-февраля 2023 года.</p>
           </div>
         </div>
         <div class="content__block__item content__expirience">
-          <h2 class="title-2">Опыт</h2>
+          <h2 class="title-2">Опыт работы</h2>
           <p class="content__text text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eligendi sed repellendus id. Laboriosam excepturi voluptatibus numquam sequi architecto quam.
+            <ul>
+              <li class="text">* Опыта работы нет</li>
+              <li class="text">* В основном делал учебные проекты(лендинги), решал задачи по программированию</li>
+              <li class="text">
+                <span>* Есть один коммерческий</span>
+                <a class="link text" href="https://akaryaka.github.io/elvi-nails/">проект</a>
+              </li>
+            </ul>
           </p>
         </div>
         <div class="content__block__item content__statistics">
           <h2 class="title-2 title_github">Статистика github</h2>
           <p class="content__text">
-            <svg class="github-stat" xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200">
+            <svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200">
               <style>
                 * {
                   font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif
@@ -96,40 +132,33 @@
                 <g transform="translate(40,0)">
                   <rect y="18" width="14" height="14" fill="#c6538c" stroke="#242424" style="stroke-width: 1px;"></rect>
                   <rect y="43.2" width="14" height="14" fill="#f1e05a" stroke="#242424" style="stroke-width: 1px;"></rect>
-                  <rect y="68.4" width="14" height="14" fill="#563d7c" stroke="#242424" style="stroke-width: 1px;"></rect>
-                  <rect y="93.60000000000002" width="14" height="14" fill="#e34c26" stroke="#242424" style="stroke-width: 1px;">
-                  </rect><text x="16.8" y="30" style="fill: #bebebe; font-size: 14px;">SCSS</text><text x="16.8" y="55.2"
+                  <rect y="68.4" width="14" height="14" fill="#563d7c" stroke="#242424" style="stroke-width: 1px;"></rect><text
+                    x="16.8" y="30" style="fill: #bebebe; font-size: 14px;">SCSS</text><text x="16.8" y="55.2"
                     style="fill: #bebebe; font-size: 14px;">JavaScript</text><text x="16.8" y="80.4"
-                    style="fill: #bebebe; font-size: 14px;">CSS</text><text x="16.8" y="105.60000000000002"
-                    style="fill: #bebebe; font-size: 14px;">HTML</text>
+                    style="fill: #bebebe; font-size: 14px;">CSS</text>
                 </g>
                 <g transform="translate( 230, 80 )">
                   <g class="arc">
                     <path
-                      d="M3.67394039744206e-15,-60A60,60,0,0,1,51.96152422706632,29.99999999999999L30.310889132455355,17.499999999999993A35,35,0,0,0,2.1431318985078682e-15,-35Z"
+                      d="M3.67394039744206e-15,-60A60,60,0,1,1,-20.521208599540124,56.381557247154504L-11.970705016398405,32.88924172750679A35,35,0,1,0,2.1431318985078682e-15,-35Z"
                       style="fill: #c6538c; stroke-width: 2px;" stroke="#242424"></path>
                   </g>
                   <g class="arc">
                     <path
-                      d="M51.96152422706632,29.99999999999999A60,60,0,0,1,-51.961524227066306,30.00000000000002L-30.310889132455348,17.50000000000001A35,35,0,0,0,30.310889132455355,17.499999999999993Z"
+                      d="M-20.521208599540124,56.381557247154504A60,60,0,0,1,-38.56725658119237,-45.96266658713867L-22.497566339028882,-26.811555509164226A35,35,0,0,0,-11.970705016398405,32.88924172750679Z"
                       style="fill: #f1e05a; stroke-width: 2px;" stroke="#242424"></path>
                   </g>
                   <g class="arc">
                     <path
-                      d="M-51.961524227066306,30.00000000000002A60,60,0,0,1,-38.56725658119237,-45.96266658713867L-22.497566339028882,-26.811555509164226A35,35,0,0,0,-30.310889132455348,17.50000000000001Z"
-                      style="fill: #563d7c; stroke-width: 2px;" stroke="#242424"></path>
-                  </g>
-                  <g class="arc">
-                    <path
                       d="M-38.56725658119237,-45.96266658713867A60,60,0,0,1,-1.1021821192326178e-14,-60L-6.429395695523604e-15,-35A35,35,0,0,0,-22.497566339028882,-26.811555509164226Z"
-                      style="fill: #e34c26; stroke-width: 2px;" stroke="#242424"></path>
+                      style="fill: #563d7c; stroke-width: 2px;" stroke="#242424"></path>
                   </g>
                 </g>
               </g>
             </svg>
           </p>
           <p class="content__text">
-            <a class="github-link text" href=" https://github.com/Canoua">Ссылка на github</a>
+            <a class="link text" href=" https://github.com/Canoua">Ссылка на github</a>
           </p>
         </div>
       </div>  
@@ -142,17 +171,17 @@
     </div>
     
     <div class="projects-inner">
-      <a target="_blank" href="https://akaryaka.github.io/mggroup/" class="projects__item-wrapper">
+      <a href="https://akaryaka.github.io/mggroup/" class="projects__item-wrapper">
         <article class="projects__item">
           <img src="images/1.jpg" alt="project-1">
         </article>
       </a>
-      <a target="_blank" href="https://akaryaka.github.io/elvi-nails/" class="projects__item-wrapper">
+      <a href="https://akaryaka.github.io/elvi-nails/" class="projects__item-wrapper">
         <article class="projects__item">
           <img src="images/2.jpg" alt="project-2">
         </article>
       </a>
-      <a target="_blank" href="https://akaryaka.github.io/ujjo/" class="projects__item-wrapper">
+      <a href="https://akaryaka.github.io/ujjo/" class="projects__item-wrapper">
         <article class="projects__item">
           <img src="images/3.jpg" alt="project-3">
         </article>
@@ -167,6 +196,7 @@
     <p>сменить</p>
     <p>тему</p>
   </button>
+ 
   <script src="app.js"></script>
 </body>
 </html>
