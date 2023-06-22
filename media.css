@@ -46,13 +46,16 @@
     margin-bottom: 20px;
   }
 
-  .photo{
-    display: none;
+  .content__block, 
+  .aside__header,
+  .aside__footer,
+  .projects{
+    padding: 20px;
   }
 
-  .photo-wrapper{
-    background-color: orange;
-    height: 300px;
+  .theme-toggle-btn{
+    font-size: 11px;
+    padding: 5px;
   }
 
   .projects__title {
@@ -72,5 +75,11 @@
 
   .github-stat{
     width: 240px;
+  }
+}
+
+@media(max-width: 414px) {
+  .content__text > svg{
+    width: 100%;
   }
 }
