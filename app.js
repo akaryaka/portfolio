@@ -1,12 +1,16 @@
 const btnTheme = document.querySelector('#theme-toggle-btn');
 
-const wrapper = document.querySelector('.wrapper');
+const body = document.querySelector('body');
+const wrappers = document.querySelectorAll('.wrapper');
 const blocks = document.querySelectorAll('.block');
 const text = document.querySelectorAll('.text');
 const title2Before = document.querySelectorAll('.title-2');
 
 btnTheme.addEventListener('click', function () {
-  wrapper.classList.toggle('wrapper_dark');
+  wrappers.forEach(function(wrapper) {
+    wrapper.classList.toggle('wrapper_dark')
+  })
+
   blocks.forEach(function(block) {
     block.classList.toggle('block_dark')
   })
