@@ -152,6 +152,7 @@ a{
 }
 
 .projects-inner{
+  padding-bottom: 50px;/*чтоб работала анимация при скролле*/
   display: grid;
   grid-template-columns: 50% 50%;
   grid-auto-rows: 300px;
