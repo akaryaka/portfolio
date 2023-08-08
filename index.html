@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Резюме</title>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <script src="https://kit.fontawesome.com/5dc8856e2f.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
 </head>
-<body class="wrapper">
+<body class="body">
   <div class="container">
     <div class="wrapper block_light"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
       <aside class="aside" data-aos="fade-right">
@@ -100,10 +100,13 @@
           <div class="content__block__item content__profile">
             <h2 class="title-2">Обо мне</h2>
             <div class="content__text text">
-              <p>Мне очень интересно все, что связано с гаджетами: компьютеры, смартфоны, новые технологии.</p>
-              <p>Web-разработкой интересовался еще во время обучения в университете.</p>
-              <p>Но более осознанно начал изучать web с января 2023 года.</p>
-              <p>На данный момент прохожу курсы beonmax по верстке, javascript, php.</p>
+              <p>Всем привет!</p>
+              <p>Меня зовут Андрей. Я веб-разработчик.</p>
+              <p>Веб-разработкой интересовался еще во время обучения в университете, который окончил в 2020 году.</p>
+              <p>Но более осознанно начал изучать веб-технологии с января 2023 года.</p>
+              <p>На данный момент прохожу курсы по javascript, react, php.</p>
+              <p>Я люблю фронтенд), но не против изучать новые технологии и развиваться в сторону фуллстека.</p>
+              <p>Если говорить о хобби, то увлекаюсь компьютерными играми и музыкой:)</p>
             </div>
           </div>
           <div class="content__block__item content__expirience">
@@ -172,6 +175,21 @@
       <div class="projects__title-wrapper" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
         <h2 class="title-2 projects__title">Проекты</h2>
       </div>
+
+      <ul class="filter">
+        <li class="filter__item">
+          <a class="filter__btn active" href="#">Все</a>
+        </li>
+        <li class="filter__item">
+          <a class="filter__btn" href="#">HTML</a>
+        </li>
+        <li class="filter__item">
+          <a class="filter__btn" href="#">SCSS</a>
+        </li>
+        <li class="filter__item">
+          <a class="filter__btn" href="#">JavaScript</a>
+        </li>
+      </ul>
     
       <div class="projects-inner">
         <a class="projects__item-wrapper" target="_blank" href="https://akaryaka.github.io/mggroup/" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
@@ -203,8 +221,9 @@
     <p>тему</p>
   </button>
  
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="app.js"></script>
-  <script src="aos-animation.js"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <!-- <script src="js/libs/aos-animation.js"></script> -->
+  <script src="js/themeToggle.js"></script>
+  
 </body>
 </html>
