@@ -219,9 +219,6 @@ a{
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: 700;
   z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 /**/
 
@@ -252,21 +249,4 @@ a{
 
 .filter__btn.active{
   background-color: #F8D568;
-}
-
-.skills__list__item{
-  padding-left: 15px;
-  position: relative;
-}
-
-.skills__list__item::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translate(0, -50%);
-  width: 5px;
-  height: 5px;
-  background-color: #F8D568;
-  border-radius: 5px;
 }
