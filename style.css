@@ -250,3 +250,7 @@ a{
 .filter__btn.active{
   background-color: #F8D568;
 }
+
+.active._text_dark{
+  color: #000;
+}
