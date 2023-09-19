@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="body">
+  <div class="cursor"></div>
   <div class="container">
     <div class="wrapper block_light">
       <aside class="aside">
@@ -109,11 +110,10 @@
             <h2 class="title-2">Обо мне</h2>
             <div class="content__text text">
               <p>Всем привет!</p>
-              <p>Меня зовут Андрей. Я веб-разработчик.</p>
+              <p>Меня зовут Андрей. Я <strong>веб-разработчик</strong>  .</p>
               <p>Веб-разработкой интересовался еще во время обучения в университете, который окончил в 2020 году.</p>
-              <p>Но более осознанно начал изучать веб-технологии с января 2023 года.</p>
-              <p>На данный момент прохожу курсы по javascript, react, php.</p>
-              <p>Я люблю фронтенд), но не против изучать новые технологии и развиваться в сторону фуллстека.</p>
+              <p>Но более осознанно начал изучать веб-технологии <strong>с января 2023 года</strong>.</p>
+              <p>Активно изучаю фронтенд, делаю пет-проекты, иногда решаю задачи на codewars.</p>
               <p>Если говорить о хобби, то увлекаюсь компьютерными играми и музыкой:)</p>
             </div>
           </div>
@@ -154,9 +154,12 @@
         <li class="filter__item">
           <a class="filter__btn text" href="#" id="filter__html">Верстка</a>
         </li>
-        <!-- <li class="filter__item">
-          <a class="filter__btn text" href="#" id="filter__scss">SCSS</a>
-        </li> -->
+        <li class="filter__item">
+          <a class="filter__btn text" href="#" id="filter__vue">Vue</a>
+        </li>
+        <li class="filter__item">
+          <a class="filter__btn text" href="#" id="filter__react">React</a>
+        </li>
         <li class="filter__item">
           <a class="filter__btn text" href="#" id="filter__js">JavaScript</a>
         </li>
@@ -191,14 +194,33 @@
             </picture>
           </article>
         </a>
-        <a class="projects__item-wrapper" data-attribute="all" data-filter="filter__js" target="_blank"
-          href="№">
+        <a class="projects__item-wrapper" data-attribute="all" data-filter="filter__vue" target="_blank" href="№">
           <article class="projects__item">
-            <picture>
-              <img src="" alt="project-5">
-            </picture>
+            Погодное приложение
           </article>
         </a>
+        <a class="projects__item-wrapper" data-attribute="all" data-filter="filter__react" target="_blank" href="№">
+          <article class="projects__item">
+            список дел
+          </article>
+        </a>
+        <!-- <a class="projects__item-wrapper" data-attribute="all" data-filter="filter__js" target="_blank"
+          href="№">
+          <article class="projects__item">
+            калькулятор
+          </article>
+        </a>
+        <a class="projects__item-wrapper" data-attribute="all" data-filter="filter__js" target="_blank" href="№">
+          <article class="projects__item">
+            конвертер
+          </article>
+        </a>
+        
+        <a class="projects__item-wrapper" data-attribute="all" data-filter="filter__js" target="_blank" href="№">
+          <article class="projects__item">
+            квиз
+          </article>
+        </a> -->
       </div>
     </section>
   </div>
@@ -209,6 +231,5 @@
   </button>
 
   <script src="scripts/app.js"></script>
-  
 </body>
 </html>
